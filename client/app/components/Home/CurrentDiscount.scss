@@ -1,0 +1,108 @@
+@import '../../[lang]/App.scss';
+
+.current-discount-container {
+  background-color: #3960ff;
+  .current-discount {
+    @include responsive-width;
+    padding: 30px 0;
+    margin-top: 30px;
+    h2 {
+      font-family: Helvetica Neue;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28.63px;
+      color: #ffffff;
+      margin-top: 0;
+      margin-bottom: 25px;
+    }
+    .list-discount {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      overflow-x: auto;
+      scrollbar-width: none; /* Для Firefox */
+      -ms-overflow-style: none; /* Для Internet Explorer та Edge */
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    .button-with-arrow {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: space-between;
+      .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button {
+          width: 118px;
+          height: 40px;
+          background: transparent;
+          border: 2px solid #ffffff;
+          font-family: Helvetica;
+          font-weight: 400;
+          font-size: 14.41px;
+          line-height: 15px;
+          text-align: center;
+          color: #ffffff;
+          border-radius: 40px;
+          cursor: pointer;
+        }
+      }
+      .arrows {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        div {
+          cursor: pointer;
+          &:hover {
+            svg {
+              rect {
+                fill: #808080;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+ <div className="button-with-arrow">
+          <div className="empty" />
+          <div className="button">
+            <button>{dictionary.title}</button>
+          </div>
+          <div className="arrows">
+            <div className="left" onClick={scrollLeft}>
+              <ArrowLeftSVG />
+            </div>
+            <div className="right" onClick={scrollRight}>
+              <ArrowRightSVG />
+            </div>
+          </div>
+        </div>
+
+
+<div className="text">
+<div className="remaning">
+  <span>{dictionary.remaining}</span>
+  <p>{calculateDaysRemaining(x.dateFinish)}</p>
+  <span>{dictionary.days}</span>
+</div>
+<div className="info">
+  <div className="name">{x.name}</div>
+  <div className="description">
+    з {x.dateStart} до {x.dateFinish}
+  </div>
+</div>
+</div>
+  const calculateDaysRemaining = (dateFinish: string): number => {
+    const finishDate = new Date(dateFinish.split('.').reverse().join('-'));
+    const today = new Date();
+    const diffTime = finishDate.getTime() - today.getTime();
+    return Math.max(Math.ceil(diffTime / (1000 * 60 * 60 * 24)), 0);
+  };
+*/

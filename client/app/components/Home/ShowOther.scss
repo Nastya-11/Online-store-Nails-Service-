@@ -1,0 +1,24 @@
+.show-other-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+  @media (max-width: 500px) {
+    margin-top: 5px;
+  }
+  .show-other {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid #3960ff;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 13.78px;
+    line-height: 15.85px;
+    color: #3960ff;
+    cursor: pointer;
+  }
+}

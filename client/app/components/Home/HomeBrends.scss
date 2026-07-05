@@ -1,0 +1,29 @@
+.home-brends-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #d5d5d5;
+  background-color: #fff;
+
+  .home-brends {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: nowrap;
+    animation: scroll-left 10s linear infinite; // можна швидкість підлаштувати
+    width: max-content; // важливо
+    .list-imgs-brend {
+      display: flex;
+    }
+  }
+}
+
+// Анімація для нескінченного руху вліво
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(calc(-100% + 2500px));
+  }
+}

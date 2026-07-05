@@ -1,0 +1,51 @@
+.form-my-cabinet {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  label {
+    font-family: Spline Sans;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #686868;
+    margin-top: 5px;
+  }
+  input[type='text'],
+  input[type='password'],
+  input[type='email'] {
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #3960ff;
+    outline: none;
+  }
+  .checkboxs {
+    .checkbox {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      input[type='checkbox'] {
+        margin-top: 7.5px;
+        cursor: pointer;
+      }
+    }
+    margin-bottom: 10px;
+  }
+  .collumn {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3960ff;
+    border-radius: 45px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 13px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}

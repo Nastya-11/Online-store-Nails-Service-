@@ -1,0 +1,119 @@
+.my-slider-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  height: 60vh;
+  @media (max-width: 768px) {
+    height: 40vh;
+  }
+  .swiper {
+    position: relative;
+    overflow: unset;
+  }
+
+  .swiper-slide {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+    img {
+      width: 100%;
+
+      height: 60vh; // Висота зображення
+      object-fit: cover; // Масштабування зображення без спотворення
+      @media (max-width: 768px) {
+        height: 40vh;
+      }
+    }
+    .text {
+      left: 7.5%;
+      position: absolute;
+      z-index: 2;
+      max-width: 500px;
+      @media (max-width: 768px) {
+        position: unset;
+        width: 100%;
+      }
+      h2 {
+        margin: 0;
+        font-family: Gloock;
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 48.4px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #163932;
+        @media (max-width: 768px) {
+          font-family: Roboto;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 25px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+          margin: 25px 0 15px 0;
+        }
+      }
+      p {
+        font-family: Spline Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #163932;
+        @media (max-width: 768px) {
+          margin-top: 0;
+          font-family: Spline Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+        }
+      }
+      a {
+        cursor: pointer;
+        button {
+          background-color: #22372d;
+          height: 40px;
+          width: 322px;
+          font-family: Spline Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: center;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+          color: #fcfcef;
+          border: none;
+          border-radius: 9999px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .swiper-pagination {
+    @media (max-width: 768px) {
+      bottom: 30px;
+    }
+    .swiper-pagination-bullet {
+      width: 6px;
+      height: 6px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      content: '';
+      opacity: 0.5;
+    }
+    .swiper-pagination-bullet-active {
+      opacity: 1;
+      background-color: #3960ff; // Колір активної кулі
+    }
+  }
+}

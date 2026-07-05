@@ -1,0 +1,33 @@
+@import '../../[lang]/App.scss';
+
+.list-goods-home {
+  @include responsive-width;
+  h2 {
+    font-family: Old Standard TT;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.66px;
+    color: #1e1e1e;
+    @media (max-width: 768px) {
+      font-size: 20px;
+      line-height: 24.72px;
+    }
+  }
+  .list-goods {
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    justify-content: space-between;
+    @media (max-width: 1400px) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    @media (max-width: 1150px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

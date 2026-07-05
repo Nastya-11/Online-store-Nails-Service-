@@ -1,0 +1,45 @@
+.delivery-department-cont {
+  position: relative;
+  font-family: Arial, sans-serif;
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #b4b4b4;
+    border-radius: 4px;
+    font-size: 14px;
+    padding-left: 10px;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  .department-list {
+    position: absolute;
+    width: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      padding: 10px;
+      cursor: pointer;
+      transition: background 0.2s;
+
+      &:hover {
+        background: #f0f0f0;
+      }
+    }
+  }
+}

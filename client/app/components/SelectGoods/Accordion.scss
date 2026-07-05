@@ -1,0 +1,55 @@
+.accordion {
+  border-radius: 5px;
+  overflow: hidden;
+
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 15px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    span {
+      font-family: Helvetica;
+      font-weight: 700;
+      font-size: 14.53px;
+      line-height: 15px;
+      vertical-align: middle;
+      color: #1e1e1e;
+      display: flex;
+      flex-direction: row;
+      gap: 7.5px;
+      align-items: center;
+    }
+  }
+
+  .accordion-icon {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+  }
+
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition:
+      max-height 0.3s ease-out,
+      padding 0.3s ease-out;
+    padding: 0 12px;
+  }
+
+  .accordion-content.open {
+    border-top: 1px solid #e1e1e1;
+    max-height: 200px; // Змінюй відповідно до контенту
+    padding: 15px;
+  }
+  &.accordion-border {
+    .accordion-content {
+      border-bottom: 1px solid #e1e1e1;
+    }
+  }
+}
+//  border: 1px solid #e1e1e1;

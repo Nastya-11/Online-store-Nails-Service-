@@ -1,0 +1,19 @@
+@import '../../[lang]/App.scss';
+
+.bread-crumbs-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 40px 0;
+  margin-bottom: 20px;
+  gap: 4px;
+  a {
+    text-decoration: none;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 13.78px;
+    line-height: 15.85px;
+    color: #919191;
+    white-space: nowrap;
+  }
+}

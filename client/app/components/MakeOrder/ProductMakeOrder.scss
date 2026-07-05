@@ -1,0 +1,165 @@
+.product-make-order {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.2509);
+  @media (max-width: 768px) {
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+    }
+  }
+  .text {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+    .name-and-cod {
+      display: flex;
+      flex-direction: column;
+      gap: 7.5px;
+      width: calc(55% - 80px);
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      .name-prod {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-family: Helvetica;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.8px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: #1e1e1e;
+      }
+      .cod {
+        font-family: Helvetica;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.8px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: #777777;
+      }
+    }
+    .info-for-product {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: calc(45% + 75px);
+      align-items: flex-start;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      p {
+        display: none;
+        @media (max-width: 768px) {
+          display: flex;
+          margin-top: 0;
+          font-family: Helvetica;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 13px;
+          letter-spacing: 0%;
+          vertical-align: middle;
+          color: #777777;
+          margin-bottom: 10px;
+        }
+      }
+      div {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 33.3%;
+        font-family: Helvetica;
+        font-weight: 400;
+        font-size: 13.78px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: #000000;
+        white-space: nowrap;
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+        span {
+          font-family: Helvetica;
+          font-weight: 400;
+          font-size: 13.78px;
+          line-height: 100%;
+          letter-spacing: 0%;
+          vertical-align: middle;
+          color: #000000;
+          white-space: nowrap;
+        }
+        &.price-one {
+          flex-direction: column;
+          gap: 5px;
+          align-items: center;
+          @media (max-width: 768px) {
+            gap: 0;
+            align-items: flex-start;
+            p {
+              white-space: wrap;
+              line-height: 14px;
+            }
+          }
+          .price-with-discount {
+            font-family: Helvetica;
+            font-weight: 400;
+            font-size: 13.78px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            color: #000000;
+            white-space: nowrap;
+            @media (max-width: 768px) {
+              gap: 0;
+              width: 76px;
+            }
+          }
+          .price-no-discount {
+            font-family: Spirax;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            text-decoration: line-through;
+            color: #3960ff;
+            white-space: nowrap;
+            @media (max-width: 768px) {
+              gap: 0;
+              width: 76px;
+            }
+          }
+        }
+        &.all-sum {
+          justify-content: right;
+          align-items: flex-end;
+        }
+      }
+    }
+  }
+}

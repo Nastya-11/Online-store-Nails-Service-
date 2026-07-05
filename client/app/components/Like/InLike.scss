@@ -1,0 +1,25 @@
+.in-like-cont {
+  cursor: pointer;
+  span {
+    display: flex;
+    color: #646464;
+  }
+  p {
+    display: none;
+    color: #ff0000;
+  }
+  &.in-like-true {
+    color: #ff0000;
+    span {
+      display: none;
+    }
+    p {
+      display: flex;
+    }
+    svg {
+      path {
+        fill: #ff0000;
+      }
+    }
+  }
+}

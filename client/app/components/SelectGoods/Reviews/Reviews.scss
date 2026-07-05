@@ -1,0 +1,20 @@
+.reviews-container2 {
+  margin-bottom: 30px;
+  .list-reviews-container {
+    display: flex;
+    flex-direction: column;
+    .count-reviews {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 16px;
+      text-align: left;
+      color: #6b6d76;
+      .list-reviews {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+    }
+  }
+}

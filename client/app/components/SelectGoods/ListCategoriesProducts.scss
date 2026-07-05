@@ -1,0 +1,36 @@
+.list-product-categories-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  .filter {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 2px;
+    span {
+      font-family: Helvetica;
+      font-weight: 400;
+      font-size: 13px;
+      vertical-align: middle;
+      color: #646464;
+      white-space: nowrap;
+      line-height: 90%;
+    }
+    .border {
+      border-bottom: 1px dashed #646464;
+      width: 100%;
+      display: flex;
+      //border-style: dashed;
+    }
+    p {
+      margin: 0;
+      font-family: Helvetica;
+      font-weight: 400;
+      font-size: 13px;
+      vertical-align: middle;
+      color: #000000;
+      line-height: 90%;
+      white-space: nowrap;
+    }
+  }
+}
