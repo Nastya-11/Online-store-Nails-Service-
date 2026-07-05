@@ -1,0 +1,15 @@
+@import '../App.scss';
+
+.layout-container {
+  @include responsive-width;
+  margin-top: 30px;
+  h1 {
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 20.4px;
+    color: #161e22;
+    text-align: center;
+  }
+  padding-bottom: 30px;
+}

@@ -1,0 +1,32 @@
+@import '../App.scss';
+
+.gift-certificates-container {
+  @include responsive-width;
+  h2 {
+    font-family: Helvetica Neue;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33.4px;
+    color: #1e1e1e;
+    margin-top: 0;
+  }
+  .list-discount {
+    display: grid;
+    grid-template-columns:
+      calc(25% - 15px) calc(25% - 15px) calc(25% - 15px)
+      calc(25% - 15px);
+    gap: 20px;
+    justify-content: space-between;
+    @media (max-width: 1350px) {
+      grid-template-columns: calc(33.3% - 13px) calc(33.3% - 13px) calc(
+          33.3% - 13px
+        );
+    }
+    @media (max-width: 1024px) {
+      grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+    }
+    @media (max-width: 768px) {
+      grid-template-columns: calc(100%);
+    }
+  }
+}

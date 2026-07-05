@@ -1,0 +1,21 @@
+@import '../App.scss';
+
+.make-order-main {
+  overflow: hidden;
+  .make-order-container {
+    @include responsive-width;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    h1 {
+      font-family: Arial;
+      font-weight: 700;
+      font-size: 32px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+      margin: 0;
+    }
+  }
+}

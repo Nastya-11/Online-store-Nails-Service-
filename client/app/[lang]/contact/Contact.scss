@@ -1,0 +1,96 @@
+@import '../App.scss';
+
+.contact-container {
+  margin: 40px 0;
+  .bread-crum {
+    @include responsive-width;
+  }
+  .map {
+    width: 100%;
+    height: 40vh;
+  }
+  .write-us-and-contact {
+    @include responsive-width;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+    }
+    .line {
+      display: flex;
+      width: 100%;
+      height: 1px;
+      background-color: #81818133;
+    }
+    .contact {
+      padding: 20px 0;
+      padding-left: 40px;
+      @media (max-width: 768px) {
+        padding-left: 0;
+      }
+      .title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        h2 {
+          margin: 0;
+          font-family: Source Sans Pro;
+          font-weight: 600;
+          font-size: 22px;
+          line-height: 30.8px;
+          color: #2d2a2a;
+          margin-right: 7.5px;
+        }
+      }
+      .card {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        .text {
+          display: flex;
+          flex-direction: column;
+          .row {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+          }
+          p {
+            margin: 0;
+            font-family: Source Sans Pro;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22.4px;
+            color: #333333;
+          }
+          a {
+            font-family: Source Sans Pro;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22.4px;
+            color: #3f3f3f;
+            text-decoration: none;
+            cursor: pointer;
+          }
+          span {
+            font-family: Source Sans Pro;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            color: #3f3f3f;
+            margin-top: 3px;
+          }
+        }
+      }
+      .social {
+        padding: 25px 0;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+    }
+  }
+}

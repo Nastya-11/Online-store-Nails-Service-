@@ -1,0 +1,25 @@
+@import '../App.scss';
+
+.admin-container {
+  @include responsive-width;
+  .header-admin {
+    margin: 10px 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 17.5px;
+    a {
+      text-decoration: none;
+      font-family: Abhaya Libre Medium;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 26.31px;
+      text-align: left;
+      color: #181818;
+      &:hover {
+        color: #449242;
+      }
+    }
+  }
+}
