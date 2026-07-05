@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "prettier": "3.5.1"
+  },
+  "dependencies": {
+    "next": "^15.4.0-canary.27"
+  }
+}
