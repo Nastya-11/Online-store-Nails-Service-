@@ -1,0 +1,262 @@
+{
+  "Header": {
+    "HeaderUp": {
+      "giftCertificates": "Gift certificates",
+      "delivery": "Delivery",
+      "pay": "Payment",
+      "return": "Exchange and return",
+      "contact": "Contacts"
+      },
+      "Catalog": {
+      "title": "Product catalog"
+      },
+      "Basket": {
+      "empty": {
+      "title": "Your basket is empty",
+      "description": "Add product to basket"
+      }
+      },
+      "Auth": {
+      "login": "Login",
+      "register": "Registration",
+      "myCabinet": "My cabinet",
+      "exit": "Exit"
+      },
+    "Like": {
+      "empty": {
+      "title": "Your favorites are empty",
+      "description": "Add product to favorites"
+      }
+    },
+    "HeaderDown": {
+      "novetly": "Novetly",
+      "productWithDiscount": "Discounted products",
+      "discount": "Promotions",
+      "hit": "Bestsellers"
+    },
+    "Burger": {}
+  },
+    "Home": {
+      "showOther": "Show more",
+      "novetly": "NOVETLY",
+      "withDiscount": "DISCOUNTED PRODUCTS",
+      "lider": "BESTSELLERS"
+    },
+
+    "delivery": {
+      "title": "Delivery",
+      "miniTitle1": "Nova Poshta",
+      "description1": "Delivery to a branch/parcel terminal or by Nova Poshta courier to the address.<span style=\"display: block; margin-top: 5px;\">Delivery time depends on the situation in the region.</span><span style=\"display: block; margin-top: 5px;\">Delivery is paid either by the buyer or the Nails Service online store, depending on the information specified in the products.</span><span style=\"display: block; margin-top: 5px;\">Track the status of your parcel on the Nova Poshta website or in the mobile application. After the parcel arrives at the pick-up point, you will receive a corresponding notification.</span><span style=\"display: block; margin-top: 5px;\">Free storage of parcels in branches is carried out for 7 calendar days, then the service is paid.</span>",
+      "miniTitle2": "Pickup from the \"Nova Poshta\" branch:",
+      "ul1": [
+        "Payment for goods and services for delivery by Nova Poshta is paid in cash in hryvnia.",
+        "Payment for goods and services for delivery by Nova Poshta is paid using a bank card."
+      ],
+      "miniTitle3": "Nova Poshta delivery to parcel terminals:",
+      "description3": "What we deliver: any product worth up to UAH 10 000 and weighing up to 30 kg and no more than 42x34x58 cm in size.<span style=\"display: block; margin-top: 5px;\">When we deliver: according to the delivery times of the Nova Poshta operator to your city. Details at the link: <a href=\"https://novaposhta.ua/\"> https://novaposhta.ua/</a></span><span style=\"display: block; margin-top: 5px;\">Where we deliver: to any Nova Poshta parcel terminal. List of parcel terminals at the link: https://novaposhta.ua/office/list</span><span style=\"display: block; margin-top: 5px;\">Advantages: contactless way to receive your order. You can pick up your parcel at any convenient time, even on weekends or holidays.</span><span style=\"display: block; margin-top: 5px;\">Order payment: only fully prepaid orders. You can receive your parcel in just 10 seconds!</span><span style=\"display: block; margin-top: 5px;\">To use the parcel terminal, you do not need to have documents with you. All you need to take with you is a mobile phone with the Nova Poshta mobile application installed.</span>",
+      "miniTitle4": "Rules for delivery to parcel terminals:",
+      "description4": "According to the official terms of service of Nova Poshta LLC. Link to the rules: <a href=\"https://novaposhta.ua/uploads/misc/doc/Terms_of_Service.pdf\">https://novaposhta.ua/uploads/misc/doc/Terms_of_Service.pdf</a> Free storage of the order for 6 days in the parcel terminal, on the 7th day of moving to the branch. If after this period you do not receive the order, the goods will be returned to the store. One order can contain no more than 1 unit of goods. If you need to order more than 1 unit, you must place an order separately for each product. In case of technical problems that have arisen with the parcel terminal, you must contact the Nova Poshta contact center at 0 800 500 609.<span style=\"display: block; margin-top: 5px;\"></span><span style=\"display: block; margin-top: 5px;\">Upon delivery, you can check the parcel for integrity and functionality. In case of detection of damage, discrepancy between the goods or their completeness, it is necessary, in the presence of the branch operator or the Nova Poshta courier, to draw up a corresponding act and refuse to receive the parcel. After receiving the goods, claims regarding the appearance and completeness will not be accepted.</span><span style=\"display: block; margin-top: 5px;\"></span><span style=\"display: block; margin-top: 5px;\">To receive the goods at the parcel terminal, you need to have the Nova Poshta app installed on your smartphone. You can also pay for the delivery of the parcel there. If you find any damage, discrepancies in the goods or their completeness, you must contact any branch or call the Nova Poshta support service to file a claim.</span>",
+      "miniTitle5": "Instructions on how to use the parcel terminal: ",
+      "description5": "Link to the instructions: <a href='https://novaposhta.ua/poshtomat/?utm_source=site&utm_medium=referral&utm_campaign=npu_poshtomat_button'>https://novaposhta.ua/poshtomat/?utm_source=site&utm_medium=referral&utm_campaign=npu_poshtomat_button</a>",
+      "miniTitle6": "Delivery cost",
+      "ul2": [
+      "The cost of delivery is calculated individually and depends on the weight, volume of the goods, and the locality.",
+      "Free delivery with 100% payment for goods over 2000 UAH.",
+      "When paying by cash on delivery, 20 UAH + 2% of the cost of the goods is added to the order amount (Nova Poshta services for sending money)."
+    ],
+    "miniTitle7": "Ukrposhta",
+    "description7": "Delivery is carried out to the Ukrposhta branch in your city.<span style=\"display: block; margin-top: 5px;\">The order can be up to UAH 50,000,</span><span style=\"display: block; margin-top: 5px;\">no more than 70 cm (maximum side) and weighing up to 30 kg.</span>",
+    "miniTitle8": "Shipment is carried out at Ukrposhta rates:",
+    "description8": "Express <a href=\"https://www.ukrposhta.ua/ua/taryfy-ukrposhta-ekspres\">(https://www.ukrposhta.ua/ua/taryfy-ukrposhta-ekspres)</a><span style=\"display: block; margin-top: 5px;\">Standard <a href=\"https://www.ukrposhta.ua/ua/taryfy-ukrposhta-standart\">(https://www.ukrposhta.ua/ua/taryfy-ukrposhta-standart)</a></span><span style=\"display: block; margin-top: 5px;\">no more than 70 cm (maximum side) and weighing up to 30 kg.</span><span style=\"display: block; margin-top: 5px;\">Sending goods by a transport company is possible only upon full payment of the cost of the goods to the sole proprietor's bank account. There is no cash on delivery.</span><span style=\"display: block; margin-top: 5px;\">Delivery is paid by the buyer or the Nails Service online store, depending on the information specified in the goods.</span><span style=\"display: block; margin-top: 5px;\">To receive your shipment at the branch:</span><ul><li>Check the tracking on the Ukrposhta website <a href=\"https://track.ukrposhta.ua/tracking_UA.html\">(https://track.ukrposhta.ua/tracking_UA.html)</a> or in the mobile application <a href=\"https://www.ukrposhta.ua/ua/onlain-servisy#mobile-app-block\">(https://www.ukrposhta.ua/ua/onlain-servisy#mobile-app-block)</a></li><li>Find the address of your Ukrposhta branch by postcode or home address here <a href=\"https://index.ukrposhta.ua/find-post-index\">(https://index.ukrposhta.ua/find-post-index)</a></li><li>Show the Ukrposhta employee the original identity document (passport, driver's license, residence permit, etc.), or from the Diia application or a document that allows you to receive mail.</li><li>Receive your parcel.</li></ul><span style=\"display: block; margin-top: 5px;\">Delivery times depend on the situation in the region.</span><span style=\"display: block; margin-top: 5px;\">Upon delivery, you have the opportunity to check the goods for integrity and functionality.</span><span style=\"display: block; margin-top: 5px;\">If damage, non-compliance or completeness of the goods is detected, it is necessary to draw up a corresponding act in the presence of the operator of the Ukrposhta branch and refuse to receive the parcel.</span><span style=\"display: block; margin-top: 5px;\">After receiving the goods, claims regarding the appearance and completeness are not accepted.</span>",
+    "titleMini9": "Delivery cost",
+    "description9": [
+      "Delivery cost is calculated individually and depends on the weight, volume of the goods, as well as the locality.",
+      "Free delivery with 100% payment for goods from 2000 UAH."
+    ] 
+  },
+  
+  "pay": {
+    "title": "Payment",
+    "typePay": "Payment methods",
+    "miniTitle": "Payment methods",
+    "miniTitle2": "1. Full payment for the goods to the sole proprietor's bank account (IBAN)",
+    "description2": "When placing an order, you specify this payment method and within a working day the manager will contact you by phone and send the details for payment of the order via Telegram/Viber/WhatsApp, SMS or email. After payment by details, you need to send the manager a screenshot or photo of the payment receipt indicating the exact order number. After the funds are credited to our account, the goods will be sent within 1 working day, in case of a delay the manager will notify you. Orders are processed daily: Mon-Fri from 10:00 to 18:00, Sat-Sun from 14:00 to 18:00.",
+    "miniTitle3": "2. Full payment for the goods to the sole proprietor's key card Monobank",
+    "description3": "When placing an order, you specify this payment method and within a working day the manager will contact you by phone and via Telegram/Viber/WhatsApp, SMS or email will send the details for payment of the order. After payment by details, you need to send the manager a screenshot or photo of the payment receipt indicating the exact order number. After the funds are credited to our account, the goods will be sent within 1 working day, in case of a delay the manager will notify you. Orders are processed daily: Mon-Fri from 10:00 to 18:00, Sat-Sun from 14:00 to 18:00.",
+    "miniTitle4": "3. Cash on delivery by partial prepayment (min. prepayment amount 100 UAH)",
+    "description4": "When placing an order, you specify this payment method and within a working day the manager will contact you by phone and via Telegram/Viber/WhatsApp, SMS or email will send the details for payment of the order. After payment by details, you need to send the manager a screenshot or photo of the payment receipt indicating the exact order number. After the funds are credited to our account, the goods will be sent within 1 business day, in case of delay the manager will notify you. Orders are processed daily: Mon-Fri from 10:00 to 18:00, Sat-Sun from 14:00 to 18:00."
+  },
+  "politics": {
+    "title": "Privacy Policy",
+    "miniTitle1": "Information Collection and Use",
+    "description1": "We collect only the information that is necessary to process orders, communicate with the customer and improve the quality of our services. This may include: name, contact information, shipping address, email, etc. We may also use third-party services, such as Google Analytics or other analytics tools, to collect information about the use of the site. These services may use cookies or other technologies to collect data. You can manage cookies in your browser settings. We do not transfer your personal data to third parties, except as provided for by the legislation of Ukraine.",
+    "miniTitle2": "Protection of personal data",
+    "description2": "We use modern security technologies to protect your information. Only authorized company employees who are obliged to maintain confidentiality have access to personal data.",
+    "miniTitle3": "Your rights",
+    "ul1": [
+      "You have the right to know what personal data about you is stored.",
+      "You have the right to change or delete your data by contacting us via the contact form.",
+      "You have the right to withdraw consent to the processing of personal data."
+    ]
+  },
+  "returnGoods": {
+    "name": "Return of goods",
+    "title": "Return of goods",
+    "title2": "\"ZU\" On Consumer Protection",
+    "minititle": "Return of goods",
+    "returnPolicyDesc": "<span style=\"font-weight:bold\">In accordance with the Law of Ukraine On Consumer Protection</span> dated March 19, 1994 No. 172, customers have the right to exchange non-food goods of proper quality for a similar one if the goods do not satisfy them in shape, dimensions, style, color, size or for other reasons cannot be used for their intended purpose. The buyer has the right to exchange goods of proper quality within fourteen calendar days, not counting the day of purchase, provided that all the norms stipulated by the Law are met.",
+    "returnPolicyDesc2": "The Resolution of the Cabinet of Ministers of Ukraine dated March 19, 1994 No. 172 On the Implementation of Certain Provisions of the Law of Ukraine On Consumer Protection specifies a list of goods that are not are subject to exchange (return), namely:",    
+    "ul": [
+      "hairbrushes, combs, massage brushes;",
+      "disposable products;",
+      "brushes and brush sets;",
+      "files, buffs, polishers;",
+      "hairdressing scissors;",
+      "manicure tools;",
+      "varnishes and gel polishes;",
+      "products in aerosol packaging;",
+      "hairpins and hairpins;",
+      "promotional and discounted products;",
+      "printed publications",
+      "razors",
+      "products made of natural and artificial hair"
+    ],
+    "title3": "What can be returned?",
+    "addittional": "Such a product can be returned only due to the detection of a defect or non-compliance with the order.",
+    "returnRules": "Only new products that do not have traces of use: scratches, chips, abrasions are subject to exchange or return.<br><span style=\"display:block; margin-top:5px;\">It is mandatory to preserve: the complete set, integrity and all components of the packaging, labels, factory marking. Violation of any of these points reserves the right for the store to refuse the buyer to exchange or return the goods.</span><span style=\"display:block; margin-top:5px; font-weight:bold\">By picking up the goods from the Nova Poshta branch, you automatically agree with the quality and complete set of the goods. We strongly recommend that you check the parcel with the courier service employee / courier.</span>",
+    "title4": "Exchange and return procedure",
+    "returnPolicyDesc3": "<p style=\"margin-bottom: 20px;\"><span style=\"font-weight: bold; display: block; margin-bottom: 8px;\">Technical equipment of proper quality that has been put into operation is not subject to exchange/return</span>The buyer has the right to count on warranty repair if:</p><ul style=\"margin-bottom: 20px; padding-left: 20px;\"><li>A warranty period has been established for the product.</li><li>The product was purchased at the Nails Service store.</li><li>The warranty terms are indicated in the appendix to the product.</li></ul><p style=\"font-weight: bold; margin-bottom: 10px;\">The procedure for exchanging/returning technical equipment of improper quality that has been put into operation:</p><ol style=\"margin-bottom: 16px; padding-left: 20px;\"><li>The client fills out the return form, together with the employee, providing all the necessary information.</li><li>After agreement with the manager, the client sends the goods to the online store <span style=\"color:red\">(at the client's expense)</span>. Within 5 business days from the moment the goods are received, diagnostics are carried out.</li><li>If a factory defect is confirmed, the client has the right to warranty repair.</li><li>If no defect is found, the goods are repaired.</li></ol><p style=\"color:red; margin-bottom: 24px;\">Return of equipment that has not been put into operation is possible within 14 days if there is a receipt and all the equipment. Return shipping is at the buyer's expense.</p><p style=\"font-weight: bold; margin-bottom: 10px;\">The procedure for exchanging/returning equipment of inadequate quality that has not been put into operation:</p><ol style=\"margin-bottom: 16px; padding-left: 20px;\"><li>The client fills out the return form, together with the employee, providing all the necessary information</li><li>If more than 14 days have passed, the product is sent for diagnostics to the service center, within 5 business days from the moment the product is received for diagnostics, the manager provides information for further action.</li></ol><p style=\"margin: 8px 0 4px 0; font-style: italic;\">* warranty repairs of equipment that has not been put into operation are carried out at the expense of the online store.</p><p style=\"margin: 0 0 8px 0;\">Goods (gel polishes, varnishes, gels, etc.) of proper quality that have been put into operation are not subject to exchange or return.</p><p style=\"margin-bottom: 24px;\">Goods (gel polishes, varnishes, gels, etc.) of improper quality that have not been put into operation are subject to exchange or return only in case of non-compliance with the order.</p><p style=\"font-weight: bold; margin-bottom: 10px;\">Procedure for exchanging/returning goods (gel polishes, varnishes, gels, etc.) of improper quality that have been put into operation/not put into operation:</p><ol style=\"margin-bottom: 16px; padding-left: 20px;\"><li>The client fills out the return form, together with the employee, providing all the necessary information</li><li>After agreement with the manager, the client sends the goods to the online store <span style=\"color:red\">(at the client's expense)</span>. Within 5 business days from the moment the goods are received, diagnostics are carried out. The result of the exchange/return will be known after the diagnostics.</li><li>If the defect is confirmed, the store will compensate for the purchase. If no defect is found, the goods will be sent to the buyer, without compensation for shipping costs. <span style=\"color:red\">Return shipping at the buyer's expense.</span></li></ol>"
+  },
+  "footer": {
+    "cabinet": {
+      "title": "Buyer's office",
+      "urlNoAuth": {
+        "/liked": "Favorites list",
+        "/basket": "Cart Contents"
+      },
+      "urlAuth": {
+        "/user/my-cabinet": "My cabinet",
+        "/liked": "Favorites list",
+        "/basket": "Cart Contents"
+      }
+    },
+    "info": {
+      "title": "Information",
+      "url": {
+      "/goods/1": "Catalog",
+      "/pay": "Payment",
+      "/delivery": "Delivery",
+      "/return-goods": "Exchange and return",
+      "/gift-certificates": "Gift certificates",
+      "contact": "Contacts"
+      }
+    },
+    "pay": "Payment Terms",
+    "politicyConfedent": "Privacy Policy",
+    "additinal": "The Nails Service TM online store is used under the copyright holder's license.",
+    "contact": "CONTACTS"
+  },
+
+  "contact": {
+  "contact": {
+  "title": "CONTACTS",
+  "phone": "Phone: ",
+  "internetShop": "Online store",
+  "schedule": "Working hours:",
+  "scheduleDescription": "Monday - Friday: 08:00 - 20:00,<br/>Saturday: 12:00 - 15:00, Sunday: day off"
+  },
+  "WriteUs": {
+  "title": "WRITE TO US",
+  "name": "Name",
+  "phone": "Phone",
+  "message": "Message",
+  "send": "SEND"
+  }
+},
+  "miniGoods": {
+  "discount": "DISCOUNT",
+  "hit": "BESTSELLERS",
+  "novetly": "NOVETLY",
+  "avaibility": "Avaibility",
+  "noAvability": "Not available",
+  "buy": "Buy",
+  "inBasket": "In basket"
+  },
+  "currentDiscount": {
+  "title": "Current promotions",
+  "remaining": "Remaining",
+  "days": "days"
+  },
+
+  "Advantages": {
+    "title1": "Guaranteed quality",
+    "description1": "We offer only those products in which we are confident, because we carefully select each item before it gets into our catalog.",
+    "title2": "Fast and high-quality delivery",
+    "description2": "Our company delivers throughout Ukraine and beyond, so that you can receive the desired product in a convenient way for you, regardless of your location.",
+    "title3": "Shipping on the day of payment",
+    "description3": "If the order is paid for by 4:00 PM, we do everything possible to ensure its shipment on the same day. This allows you to receive your product as quickly as possible."
+  },
+  "giftCertificate": {
+  "title": "Promotions"
+  },
+  "pagination": {
+  "step": "Back",
+  "next": "Forward"
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "enterEmail": "Enter email...",
+    "password": "Password",
+    "enterPassword": "Enter password...",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "logIn": "Login",
+    "register": "Register"
+  },
+  "register": {
+  "title": "Registration",
+  "name": "First name",
+  "surname": "Last name",
+  "numberPhone": "Phone number",
+  "email": "Email",
+  "enterEmail": "Enter email...",
+  "password": "Password",
+  "enterPassword": "Enter password...",
+  "passwordRepit": "Confirm password",
+  "rememberMe": "Remember me",
+  "forgotPassword": "Forgot password?",
+  "logIn": "Login",
+  "register": "Register"
+  },
+  "userLayout": {
+    "title": "Account",
+    "ListInfo": {
+    "cabinet": "Edit information",
+    "personal": "Personal",
+    "discount": "discount",
+    "myOrder": "My orders",
+    "myLike": "My favorites",
+    "textInfo": "Be <span>#NUMBERONE</span> with Nails Service.</br>In the <span>catalog</span> you will find all the necessary products.</br>And the most profitable - in <span>promotional offers.</span>"
+    }
+  },
+  "userUrls": {
+    "cabinet": "Account",
+    "address": "Addresses",
+    "myOrder": "My Orders",
+    "personalDiscount": "Personal Discount",
+    "exit": "Exit"
+  },
+  "myCabinet": {
+    "title": "Account Information"
+  },
+  "address": {
+    "title": "Addresses"
+  },
+  "basket": {
+  "title": "Cart Contents"
+  },
+  "like": {
+  "title": "Favorites list"
+  }
+}
