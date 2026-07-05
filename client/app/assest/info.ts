@@ -1,0 +1,12 @@
+export const number = '096-561-65-32';
+export const number1Footer = '+38 (093) 764-87-71;';
+export const number2Footer = '+38 (098) 127-81-59;';
+export const number2UrlFooter = 'tel:+380981278159;';
+export const numberUrl = 'tel:+380937648771';
+export const viberUrl = 'https://viber.com';
+export const telegramUrl = 'https://telegram.org';
+export const vatcapUrl = 'https://whatsapp.com';
+export const facebookUrl ='https://facebook.com';
+export const instagramUrl = 'https://instagram.com';
+export const email = 'nailsservice@gmail.com';
+export const emailUrl = `mailto:${email}`;
