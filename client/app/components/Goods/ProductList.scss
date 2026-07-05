@@ -1,0 +1,10 @@
+.product-list-cont {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  @media (max-width: 500px) {
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+  }
+}

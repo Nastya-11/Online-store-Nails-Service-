@@ -1,0 +1,292 @@
+@import '../../[lang]/App.scss';
+
+.footer-container {
+  background-color: #f2f2f5;
+  overflow: hidden;
+  .footer {
+    @include responsive-width;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    @media (max-width: 768px) {
+      padding-bottom: 10px;
+    }
+    .footer-up {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .logo-numbers-socialcs {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: center;
+        @media (max-width: 768px) {
+          display: none;
+        }
+        .numbers {
+          display: flex;
+          flex-direction: column;
+          a {
+            font-family: Helvetica;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            color: #000000;
+            text-decoration: none;
+            cursor: pointer;
+          }
+        }
+        .socials {
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+        }
+      }
+      .languages {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        @media (max-width: 768px) {
+          width: 100%;
+          justify-content: right;
+        }
+        a {
+          font-family: Spline Sans;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16.8px;
+          color: #939696;
+          text-decoration: none;
+          cursor: pointer;
+          &.active {
+            color: #163932;
+            cursor: default;
+          }
+        }
+      }
+    }
+    .title {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      p {
+        font-family: Spline Sans;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.6px;
+        color: #163932;
+        margin: 0;
+        white-space: nowrap;
+        @media (max-width: 768px) {
+          font-family: Hind Guntur;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 24px;
+          color: #000000;
+        }
+      }
+      .line {
+        height: 1px;
+        background-color: #163932;
+        width: 100%;
+        margin-left: 15px;
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+    .logo {
+        height: 50px;
+        width: auto;
+        svg {
+          width: auto;
+          height: 57px;
+        }
+      }
+    .list-urls {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      padding: 15px 0;
+      @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 5px;
+        padding-top: 0;
+      }
+      a {
+        font-family: Spline Sans;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.2px;
+        color: #163932;
+        text-decoration: none;
+        cursor: pointer;
+        @media (max-width: 768px) {
+          font-family: Hind Guntur;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          color: #000000;
+        }
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    .line-opacity {
+      height: 1px;
+      background-color: #dedcdc;
+      width: 100%;
+      @media (max-width: 768px) {
+        background-color: #999999;
+      }
+    }
+    .info {
+      margin-top: 10px;
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+    .footer-cabinet {
+      margin-top: 25px;
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+  .footer-down {
+    @include responsive-width;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #163932;
+    align-items: center;
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      padding-bottom: 10px;
+    }
+    .posts {
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+    .full-steck {
+      font-family: Spline Sans;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #163932;
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      @media (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        white-space: nowrap;
+        width: 100%;
+      }
+      a {
+        @media (max-width: 768px) {
+          text-align: center;
+          white-space: nowrap;
+        }
+        color: #163932;
+      }
+    }
+    .footer-down-url {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      @media (max-width: 768px) {
+        display: none;
+      }
+      a {
+        font-family: Spline Sans;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.8px;
+        color: #163932;
+      }
+    }
+  }
+  .footer-additional {
+    @include responsive-width;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    @media (max-width: 768px) {
+      font-family: Helvetica;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+    }
+  }
+
+  .details {
+    display: none;
+    margin-top: 10px;
+    transition:
+      max-height 0.3s ease-in-out,
+      opacity 0.3s ease-in-out,
+      border 0.3s ease-in-out;
+    .socials {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 7.5px;
+      .insta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(
+          106.81% 107.11% at 27.05% 107.1%,
+          #fedb7f 0%,
+          #fa6c2a 33.78%,
+          #d92d76 58.67%,
+          #525dd0 100%
+        );
+        border-radius: 100%;
+        height: 38px;
+        width: 38px;
+        overflow: hidden;
+      }
+    }
+
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      summary {
+        width: 100%;
+        list-style: none;
+        cursor: pointer;
+        padding-bottom: 5px;
+        transition: border 0.3s ease-in-out;
+
+        .title {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          p {
+            text-transform: uppercase;
+          }
+        }
+      }
+      &:not([open]) {
+        max-height: 500px;
+        opacity: 1;
+        summary {
+          border-bottom: 1px solid #999999;
+        }
+      }
+    }
+  }
+}

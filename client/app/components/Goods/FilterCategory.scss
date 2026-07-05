@@ -1,0 +1,44 @@
+.filter-category {
+  border-top: 1px solid #e1e1e1;
+
+  .category-section {
+    .category-title {
+      background: none;
+      border: none;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 8px 0;
+      border-bottom: 1px solid #ddd;
+      span {
+        margin: 5px 15px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #1e1e1e;
+      }
+    }
+
+    .category-options {
+      margin-top: 5px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      padding-left: 10px;
+    }
+
+    .filter-option {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      cursor: pointer;
+
+      input {
+        cursor: pointer;
+      }
+    }
+  }
+}

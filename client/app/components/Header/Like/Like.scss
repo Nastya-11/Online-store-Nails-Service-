@@ -1,0 +1,166 @@
+.like-container {
+  .title {
+    cursor: pointer;
+    position: relative;
+    .count {
+      position: absolute;
+      right: -5px;
+      top: -5px;
+      background-color: #3960ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      border-radius: 100%;
+      width: 15px;
+      height: 15px;
+      font-size: 11px;
+      line-height: 12px;
+      z-index: 2;
+    }
+  }
+  .dropdown {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    .empty {
+      p {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16.94px;
+        text-align: center;
+        color: #000000;
+        white-space: nowrap;
+        margin: 0;
+      }
+      span {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.94px;
+        text-align: center;
+        color: #797f8b;
+        white-space: nowrap;
+      }
+    }
+    .list-basket-cont {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      @media (min-width: 549px) {
+        width: 500px;
+      }
+      @media (max-width: 550px) {
+        width: 300px;
+      }
+      h2 {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: #000000;
+        margin-top: 0;
+      }
+
+      .list-like-list > * {
+        padding-top: 8px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .list-like-list {
+        padding-bottom: 10px;
+        max-height: 400px;
+        overflow-y: auto;
+        padding-right: 8px;
+        scroll-behavior: smooth;
+
+        // Стилі для скролбару
+        &::-webkit-scrollbar {
+          width: 6px;
+        }
+
+        &::-webkit-scrollbar-track {
+          background: #f1f1f1;
+          border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background: #6d51ed; // або будь-який фірмовий колір
+          border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+          background: #3960ff;
+        }
+
+        // Для Firefox
+        scrollbar-width: thin;
+        scrollbar-color: #3960ff #f1f1f1;
+      }
+
+      .basket-foo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .sum-and-title {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 7.5px;
+          .title {
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            color: #000000;
+          }
+          .sum {
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: right;
+            vertical-align: middle;
+            color: #000000;
+          }
+        }
+      }
+      button {
+        width: 200px;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        background-color: #3960ff;
+        border-radius: 5px;
+        height: 44px;
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 41.62px;
+        text-align: center;
+        color: #ffffff;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .dropdown.open {
+    top: 25px;
+    opacity: 1;
+    visibility: visible;
+  }
+}

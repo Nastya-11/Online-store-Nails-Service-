@@ -1,0 +1,155 @@
+.burger-container {
+  .burger-title {
+    cursor: pointer;
+    z-index: 18;
+  }
+
+  /* Затемнення екрану */
+  .burger-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Затемнення */
+    z-index: 19;
+    opacity: 0;
+    animation: fadeIn 0.3s ease-in-out forwards;
+    cursor: default;
+  }
+
+  /* Контейнер меню */
+  .burger-dropdown {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.2);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+
+    .logo {
+      padding-top: 16px;
+      height: 81px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login {
+      display: flex;
+      cursor: default;
+      .authenticated {
+        background-color: #1e1e1e;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;
+        .auth-text {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          .title {
+            font-family: Helvetica;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16.1px;
+            color: #ffffff80;
+            span {
+              font-family: Helvetica;
+              font-weight: 400;
+              font-size: 13.56px;
+              line-height: 15.6px;
+              color: #646464;
+              cursor: pointer;
+            }
+          }
+          .info {
+            font-family: Helvetica;
+            font-weight: 400;
+            font-size: 11.63px;
+            line-height: 14px;
+            color: #ffffff80;
+          }
+        }
+      }
+    }
+    .list-category {
+      display: flex;
+      padding: 0 10px;
+      padding-right: 15px;
+      flex-direction: column;
+      border-bottom: 1px solid #eeeeee;
+      margin-top: 15px;
+      padding-bottom: 10px;
+      .category {
+        max-height: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+
+        .text {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 10px;
+          .svg {
+            display: flex;
+            min-width: 30px;
+            max-width: 30px;
+          }
+          .title {
+            font-family: Helvetica;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16.1px;
+            color: #1e1e1e;
+            text-wrap: nowrap;
+          }
+        }
+      }
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 15px 0;
+      padding-left: 15px;
+      a {
+        text-decoration: none;
+        font-family: Helvetica;
+        font-weight: 700;
+        font-size: 13.89px;
+        line-height: 15.97px;
+        color: #1e1e1e;
+        cursor: pointer;
+      }
+    }
+  }
+
+  /* Клас для відкриття меню */
+  .burger-open {
+    transform: translateX(0);
+  }
+}
+
+/* Анімація затемнення */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

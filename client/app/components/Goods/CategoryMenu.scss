@@ -1,0 +1,86 @@
+.category-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+
+  .category-btn,
+  .title-btn,
+  .subcategory-btn {
+    padding: 5px 15px;
+    width: 100%;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .svg {
+      display: flex;
+      margin-right: 5px;
+      svg {
+        width: 20px;
+      }
+    }
+  }
+  .category-btn {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    vertical-align: middle;
+    color: #1e1e1e;
+    max-height: 30px;
+  }
+
+  .category-btn:hover,
+  .title-btn:hover,
+  .subcategory-btn:hover {
+    background: #f0f0f0;
+  }
+
+  .active {
+    background: #ddd;
+    font-weight: bold;
+  }
+
+  /* Відступи */
+  .subcategory-title {
+    padding-left: 15px; /* Тайтли підкатегорій ближче до лівого краю */
+  }
+
+  .subcategory-btn {
+    padding-left: 30px; /* Підкатегорії ще більше зсунуті вліво */
+  }
+  .subcategory-title {
+    button {
+      font-family: Helvetica;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 100%;
+      vertical-align: middle;
+      color: #1e1e1e;
+    }
+  }
+  .subcategory-btn {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    vertical-align: middle;
+    color: #1e1e1e;
+    margin-left: 15px;
+    padding-left: 15px;
+    &.active {
+      background: #ddddddb6;
+    }
+  }
+  /* Іконка справа */
+  .icon {
+    width: 10px;
+    height: 10px;
+    margin-left: auto;
+  }
+}

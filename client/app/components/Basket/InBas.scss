@@ -1,0 +1,22 @@
+.in-bas-container {
+  span {
+    display: flex;
+  }
+  p {
+    display: none;
+  }
+  button {
+    background-color: #3960ff;
+  }
+  &.in-bas {
+    button {
+      background-color: red;
+      span {
+        display: none;
+      }
+      p {
+        display: flex;
+      }
+    }
+  }
+}

@@ -1,0 +1,170 @@
+.login-window-container {
+  .login-text {
+    font-family: Spline Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #163932;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .login-window {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .login {
+      background-color: #ffffff;
+      border-radius: 12px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      h2 {
+        margin: 0;
+        font-family: Onest;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20.4px;
+        color: #1e1e1e;
+      }
+      .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        @media (max-width: 768px) {
+          display: flex;
+          flex-direction: column;
+        }
+        form {
+          display: flex;
+          flex-direction: column;
+          width: 80%;
+          flex: 1;
+          width: 290px;
+          label {
+            font-family: Onest;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 19.6px;
+            color: #999999;
+            margin-top: 10px;
+            margin-bottom: 5px;
+          }
+          input[type='email'],
+          input[type='password'] {
+            width: 100%;
+            border: 1px solid #e1e1e1;
+            outline: none;
+            height: 40px;
+            border-radius: 3px;
+            font-family: Onest;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19.6px;
+            box-sizing: border-box;
+            padding-left: 10px;
+            margin-bottom: 10px;
+          }
+          input[type='password'] {
+            margin-bottom: 10px;
+          }
+          input {
+            cursor: pointer;
+          }
+          .remember-me {
+            display: flex;
+            flex-direction: row;
+            gap: 3px;
+            span {
+              font-family: Onest;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 19.6px;
+              color: #1e1e1e;
+            }
+          }
+          .line-hor {
+            width: 100%;
+            height: 1px;
+            background-color: #e1e1e1;
+            margin-top: 10px;
+          }
+          .for-pass-and-login {
+            margin-top: 10px;
+          }
+          .for-pass-and-login {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            span {
+              font-family: Onest;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 19.6px;
+              color: #1e1e1e;
+            }
+            button {
+              border: none;
+              outline: none;
+              background-color: #3960ff;
+              border-radius: 3px;
+              width: 125px;
+              height: 34px;
+              font-family: Helvetica;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 19.6px;
+              color: #ffffff;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              cursor: pointer;
+            }
+          }
+          .regist {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            font-family: Onest;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 15.3px;
+            color: #1e1e1e;
+            cursor: pointer;
+          }
+        }
+        .line {
+          display: flex;
+          flex: 1;
+          width: 1px;
+          max-width: 1px;
+          height: 260px;
+          background-color: #e1e1e1;
+          margin-bottom: 5px;
+        }
+        .google {
+          width: 245px;
+          height: 41px;
+          background-color: #f3f3f3;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 7.5px;
+          border-radius: 3px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .error {
+    color: red;
+  }
+}

@@ -1,0 +1,50 @@
+.sort-limit-container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 20px;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 30px;
+
+  @media (max-width: 1024px) {
+    flex-direction: row-reverse; // Міняє порядок елементів для адаптації
+    justify-content: center;
+    gap: 10px;
+  }
+  @media (max-width: 500px) {
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .sort-dropdown,
+  .limit-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    span {
+      white-space: nowrap;
+    }
+
+    select {
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      background: #ffffff;
+      transition: 0.3s ease;
+
+      &:hover {
+        background: #eee;
+      }
+
+      &:focus {
+        outline: none;
+        border-color: #3960ff;
+      }
+    }
+  }
+}
